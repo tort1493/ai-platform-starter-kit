@@ -1,17 +1,15 @@
 # Runbook
 
-## When an alert fires
-1. Confirm scope (which metric, which segment, when)
-2. Check recent changes (data, prompt, model version)
-3. Apply mitigation (throttle, rollback, disable feature)
-4. Communicate status
-5. Postmortem and corrective actions
+## Smoke tests
 
-## Common alerts
-- Data schema drift
-- Latency spike
-- KPI drop
-- Increased refusal / decreased citation coverage (LLM)
+- Run `make serve`
+- Run `make api`
+- Run `make lint`
+- Run `make test`
 
-## Rollback procedure
-- Steps to revert to last known good model/prompt/config.
+## Failure symptoms
+
+- Demo app does not start
+- API health endpoint fails
+- Import paths are broken
+- Placeholder content remains in a downstream project after customization

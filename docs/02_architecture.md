@@ -1,19 +1,14 @@
 # Architecture
 
-## System overview
-- Components:
-- Data flow:
-- Interfaces:
+## Overview
 
-## Diagram
-![architecture](img/architecture.png)
+The starter kit separates presentation, service, domain logic, scripts, tests, and documentation so a project can grow without becoming structurally inconsistent.
 
-## Model choice
-- Baseline:
-- Candidate models:
-- Why this approach:
+## Primary folders
 
-## Threats & mitigations
-- Prompt injection / data leakage (LLM):
-- Data drift:
-- Model misuse:
+- `app/`: interactive Streamlit layer
+- `infra/api/`: service interface layer
+- `src/`: project logic
+- `scripts/`: automation, setup, train, or eval tasks
+- `tests/`: validation
+- `docs/`: product and operating artifacts

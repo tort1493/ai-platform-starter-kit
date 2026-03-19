@@ -1,26 +1,13 @@
 # Evaluation Report
 
-## Offline evaluation
-- Dataset description:
-- Splits:
-- Metrics:
-- Baseline comparison:
+## Objective
 
-## Slice analysis
-- By segment:
-- Worst-case slices:
+The starter kit itself is evaluated on usability as a delivery baseline rather than model quality. The key question is whether it gives a new AI project enough structure to move quickly without sacrificing clarity.
 
-## Calibration & thresholds
-- Calibration method:
-- Decision thresholds:
-- Cost tradeoffs:
+## Current status
 
-## Failure modes
-- Error taxonomy:
-- Representative examples:
-
-## LLM red team (if applicable)
-- Injection attempts:
-- Sensitive info:
-- Hallucination checks:
-- Refusal coverage:
+- Demo surface included
+- API scaffold included
+- CI and lint hooks included
+- Standard docs set included
+- Project layout ready for specialization

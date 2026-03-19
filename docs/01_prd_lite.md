@@ -1,24 +1,13 @@
-# PRD (Lite)
+# PRD Lite
 
-## User stories
-- As a <user>, I want <capability>, so that <outcome>.
+## Goal
 
-## Requirements
-### Functional
-- R1:
-- R2:
+Provide a repeatable starter repository for AI applications that need demo, API, testing, documentation, and basic operational structure from day one.
 
-### Non-functional
-- Reliability:
-- Latency:
-- Security:
+## Core requirements
 
-## Acceptance criteria
-- AC1:
-- AC2:
-
-## Data requirements
-- Sources:
-- Schema:
-- Labeling:
-- Retention:
+- Streamlit demo entrypoint
+- FastAPI service scaffold
+- `src/` package layout
+- CI, Docker, and lint/test commands
+- Standard documentation set for product, architecture, evaluation, risk, launch, and operations

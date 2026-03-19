@@ -1,17 +1,5 @@
 # Data Card
 
-## Source
-- Public dataset / synthetic generator
+## Summary
 
-## Fields
-- Describe columns and types.
-
-## Labeling
-- How labels are obtained (if supervised).
-
-## Privacy
-- No proprietary/PII data committed.
-- Retention rules.
-
-## Known limitations
-- Bias, coverage gaps, synthetic assumptions.
+This starter kit does not ship with a real project dataset. Downstream projects should replace this file with a project-specific data card describing sources, privacy constraints, labeling approach, and known limitations.

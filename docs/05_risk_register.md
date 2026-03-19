@@ -1,5 +1,7 @@
 # Risk Register
 
-| Risk | Likelihood | Impact | Mitigation | Monitoring signal | Owner |
-|---|---:|---:|---|---|---|
-| Example: Hallucinated policy answer | Med | High | RAG + refusal + citations + eval | Refusal rate, citation coverage | You |
+| Risk | Description | Mitigation |
+| --- | --- | --- |
+| Template drift | Teams may copy the starter without replacing placeholder logic. | Document expected replacement points and review before launch. |
+| Shallow evaluation | Teams may rely on the scaffold but skip project-specific testing. | Keep evaluation and runbook docs mandatory in downstream projects. |
+| Inconsistent adoption | Different projects may still diverge structurally. | Use the kit as the common starting baseline and review repo hygiene periodically. |

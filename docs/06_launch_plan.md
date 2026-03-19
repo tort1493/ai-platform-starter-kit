@@ -1,22 +1,12 @@
 # Launch Plan
 
-## Rollout stages
-1. Dev / offline testing
-2. Shadow mode (no user impact)
-3. Pilot (limited users)
-4. Scale
+## Launch goal
 
-## Monitoring
-- Quality:
-- Latency:
-- Errors:
-- Drift:
-- Business KPIs:
+Position the starter kit as the default baseline for new AI portfolio projects and internal MVPs.
 
-## Rollback triggers
-- Define concrete thresholds.
+## Checklist
 
-## Communications
-- Stakeholders:
-- Training materials:
-- Support path:
+- Confirm demo app runs
+- Confirm API health endpoint runs
+- Confirm lint and tests pass
+- Confirm docs are project-ready
